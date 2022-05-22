@@ -10,7 +10,7 @@ const base = "/api/v1/"
 
 app.use(cors());
 
-app.use(morgan("dev".white));
+app.use(morgan("dev"));
 app.use(express.json());
 
 app.use(base + "app", library)
